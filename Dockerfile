@@ -3,6 +3,7 @@ FROM ubuntu:18.04
 ENV TZ=Asia
 
 ADD test.zip ./test.zip
+ADD firmadyne-master.zip ./firmadyne-master.zip
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 

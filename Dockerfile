@@ -9,8 +9,6 @@ RUN apt-get update && \
     apt-get install wget -y && \
     apt-get install binwalk -y && \
     apt-get install postgresql -y && \
-    apt-get install python2.7 -y && \
-    apt-get install python-pip && \
     apt-get install nano -y && \
     apt-get install zip -y && \
     apt-get install git -y && \

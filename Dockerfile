@@ -2,7 +2,6 @@ FROM ubuntu:18.04
 
 ENV TZ=Asia
 
-ADD WNAP320 Firmware Version 2.0.3.zip ./WNAP320 Firmware Version 2.0.3.zip
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
